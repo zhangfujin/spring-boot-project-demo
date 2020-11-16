@@ -1,0 +1,9 @@
+wx-config:
+  app-id: wx86cd622ea6157f50
+  app-secret: 4c52548b50e3fe76dd655477ce40e410
+  mch-id: 111111
+  mch-key: xxxxxx
+  notify-url: http://www.example.com/wx/order/pay-notify
+  # 商户证书文件路径
+  # 请参考“商户证书”一节 https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=4_3
+  key-path: xxxxx

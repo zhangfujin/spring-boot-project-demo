@@ -1,0 +1,15 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.25.234.201:3306/weitao
+    username: root
+    password: zlcb@jin
+  profiles:
+    active: wx
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+
+logging:
+  level.com.fujin.bootdemo: debug

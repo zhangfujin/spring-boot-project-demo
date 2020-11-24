@@ -40,7 +40,7 @@ public class Hello {
     * @Param:
     * @return:
     */
-    @PostMapping("/wx/login")
+    @PostMapping("api/wx/login")
     public Object Hello(@RequestBody WxLoginInfo wxLoginInfo, HttpServletRequest request) {
         String code = wxLoginInfo.getCode();
         UserInfo userInfo = wxLoginInfo.getUserInfo();

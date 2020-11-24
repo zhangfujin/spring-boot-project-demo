@@ -3,7 +3,6 @@ package com.fujin.bootdemo.service.impl;
 import com.fujin.bootdemo.dao.UserMapper;
 import com.fujin.bootdemo.entity.User;
 import com.fujin.bootdemo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -12,7 +11,7 @@ import javax.annotation.Resource;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 
     @Override
